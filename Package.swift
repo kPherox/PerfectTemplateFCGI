@@ -23,7 +23,6 @@ let package = Package(
 	name: "PerfectTemplateFCGI",
 	targets: [],
 	dependencies: [
-		.Package(url:"https://github.com/PerfectlySoft/Perfect-FastCGI.git", majorVersion: 2),
-		.Package(url:"https://github.com/PerfectlySoft/Perfect-HTTP.git", majorVersion: 2)
+		.Package(url:"https://github.com/kPherox/Perfect-FastCGI.git", majorVersion: 3),
     ]
 )
