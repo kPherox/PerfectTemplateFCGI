@@ -86,6 +86,7 @@ var routes = Routes()
 routes.add(method: .get, uri: "/**") {
     req, resp in
     resp.appendBody(string: "<html><title>Hello, world!</title><body>Hello, world!</body></html>")
+    resp.setHeader(.contentType, value: "text/html; charset=utf-8")
     resp.completed()
 }
 
